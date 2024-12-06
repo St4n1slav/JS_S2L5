@@ -38,6 +38,15 @@ header nav a{
     color: #F4FCFE;
 }
 
+header nav li{
+    display: inline;
+}
+
+header nav li a:hover{
+    background-color: #172029;
+    border: none;
+}
+
 #title{
     background-color: #F56600;
     color: #F4FCFE;
@@ -77,11 +86,9 @@ header div p{
 }
 
 main section:first-child{
-    margin: 2%;
-}
-
-main section:first-child{
     display: inline-block;
+    margin: 2%;
+    background-color: white;
 }
 
 main section:first-child h2{
@@ -92,12 +99,10 @@ main section:first-child h2{
 
 main section:first-child img{
     width: 22.5%;
-    padding: 1%;
+    height: 37.5rem;
+    margin: 1%;
     border-radius: 10%;
-}
-
-main section:first-child{
-    background-color: white;
+    box-shadow: 8px 8px 24px -12px rgba(63, 63, 66, 1);
 }
 
 .box img{
